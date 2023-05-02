@@ -2,3 +2,9 @@
     background-color: #006cfa;
     color: white;
 }
+
+[clas^="col"]{
+    border: solid 3px white;
+    text-align: center;
+    padding: 1 rem;
+}
