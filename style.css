@@ -14,16 +14,12 @@
     padding: .5rem;
 }
 
-/*
-[class=^"col"]{
-    border: solid 3px white;
-    text-align: center;
-    padding: 1 rem;
-}
-*/
-
 .margin-small{
     margin-bottom: 2rem;
+}
+
+.margin-bottom{
+    margin-bottom: 1rem;
 }
 
 .empty{
