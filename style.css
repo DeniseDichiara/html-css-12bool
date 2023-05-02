@@ -1,6 +1,9 @@
 .blue{
     background-color: #006cfa;
     color: white;
+    border: solid 1px white;
+    text-align: center;
+    padding: .5rem;
 }
 
 .light-green{
@@ -11,8 +14,18 @@
     padding: .5rem;
 }
 
+/*
 [class=^"col"]{
     border: solid 3px white;
     text-align: center;
     padding: 1 rem;
+}
+*/
+
+.margin-small{
+    margin-bottom: 2rem;
+}
+
+.empty{
+    height: 36px;
 }
