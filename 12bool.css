@@ -16,6 +16,7 @@
 .flex{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 
 }
 
@@ -74,7 +75,8 @@
     max-width: calc((90% / 12) * 1);
 }
 .Nested-col-2{
-    flex-basis: calc((90% / 12) * 2);
+    flex-basis: calc((100% / 12) * 2);
+    max-width: calc((100% / 12) * 2);
 }
 .Nested-col-3{
     flex-basis: calc((90% / 12) * 3);
@@ -89,16 +91,16 @@
     max-width: calc((90% / 12) * 5);
 }
 .Nested-col-6{
-    flex-basis: calc((90% / 12) * 6);
-    max-width: calc((90% / 12) * 6);
+    flex-basis: calc((100% / 12) * 6);
+    max-width: calc((100% / 12) * 6);
 }
 .Nested-col-7{
     flex-basis: calc((90% / 12) * 7);
     max-width: calc((90% / 12) * 7);
 }
 .Nested-col-8{
-    flex-basis: calc((90% / 12) * 8);
-    max-width: calc((90% / 12) * 8);
+    flex-basis: calc((100% / 12) * 8);
+    max-width: calc((100% / 12) * 8);
 }
 .Nested-col-9{
     flex-basis: calc((90% / 12) * 9);
